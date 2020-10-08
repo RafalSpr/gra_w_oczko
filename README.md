@@ -1,4 +1,4 @@
-# gra_w_oczko
+# Gra w oczko
 Projekt ćwiczeniowy <b>Gry w Oczko</b> (Gry w 21/ Black Jack), dla gracza (człowieka) i komputera.
 W pliku <b>oczkoDane.py</b> utworzone są wszystkie funkcje odpowadające za logikę gry. Plik ten nie wymaga uzupełnienia.
 <B><font color ="red">Należy:</font> </b>
