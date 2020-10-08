@@ -15,7 +15,7 @@ ekran = pygame.display.set_mode(ROZMIAR_OKNA)
 #karta  = pygame.image.load("AD.png")
 karty = [] # lista zawierająca obraz poszczególnych kart z talii
 kartaTyl  = pygame.image.load("tylKartyM.png")
-pozycjaKarty = [8,7,90,137]
+rozmiaryKarty =kartaTyl.get_size()  #[90,135]
 tasujKarty(Talia)
 koniecRundy = False
 # funkcje do obsługi grafikę
@@ -23,8 +23,8 @@ def pokazTylyKart(ekran,Talia):
     '''
     Funkcja pokazuje tył kart, które zostały na stole
     '''
-    pozY=ROZMIAR_OKNA[1] - pozycjaKarty[3]
-    r = ROZMIAR_OKNA[0] - pozycjaKarty[2]
+    pozY=ROZMIAR_OKNA[1] - rozmiaryKarty[1]
+    r = ROZMIAR_OKNA[0] - rozmiaryKarty[0]
     l =max(len(Talia),2)
     odstep = r/(l-1)
     pozX=r
@@ -51,6 +51,7 @@ def rysujPola(ekran):
     '''
     Funkcja rysuje pola planszy
     Pole gracza, pole banku oraz pole na zakryta talię
+    Tu uzupełniamy procedurę
     '''
     pass
     
@@ -70,9 +71,10 @@ def koniecRunda(ekran,Gracz,Bank):
     '''
     Wyświetla tekst o zakończeniu rundy
     z informacją kto wygrał Gracz czy Bank
+    Tu uzupełniamy procedurę
     '''
     pass
-
+#Główna część programu
 while True:
     ekran.fill(NIEBIESKI)
     rysujPola(ekran)
