@@ -5,7 +5,7 @@ W pliku <b>oczkoDane.py</b> utworzone są wszystkie funkcje odpowadające za log
 <ul>
 <li>przygotować zestaw kart z talii, tzn znaleźć w internecie obrazki przedstawiające poszczególne karty, dokonać ich ewentualnego pocięcia i podasowania rozmiarów, tak aby każda
 karta miała ten sam wymiar</li>
-<li>pliki z poszczególnymi kartami należy zapisać pod odpowiednimi nazwami i tak np.: as trefl powinien mieć nazwę AC.png, walet kier nazwę WH.png.
+<li>pliki z poszczególnymi kartami należy zapisać pod odpowiednimi nazwami i tak np.: <i>as trefl</i> powinien mieć nazwę <i>AC.png</i>, </i>walet kier</i> nazwę <i>WH.png</i>, itd.
 <pre>
 Kolory kart i ich oznaczenia:
 Clubs - trefl
