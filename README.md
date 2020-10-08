@@ -31,5 +31,6 @@ Stół gracza powinien być po lewej stronie, a stół banku po prawej.</li>
 <li>Funkcję wyświetlającą komunikat o końcu rundy z informacją, kto wygrał (Gracz czy Bank)</li>
 <li>W głównej części programu, w wierszu 90 należy sprawdzić, w które pole kliknięto i uruchomić odpowiednią procedurę albo ruch gracza albo banku</li>
 <li>W głównej części programu, w wierszu 94 należy wpisać procedurę restartującą stan gry</li>
-
-</ul>
+<li>Należy również przestestować, grę czy nie pojawiają się błędy</li>
+<li>Należy również pooprawić wyświetlanie kart gracza i banku , tak aby wyświetlały się od lewej do prawej bez zbędnych odstępów</li>  
+<li>Warto było by również uatrakcyjnić grafikę stołu gracza i banku oraz grafikę stołu z talią</li>    
