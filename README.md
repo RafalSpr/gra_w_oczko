@@ -1,7 +1,7 @@
 # Gra w oczko
-Projekt ćwiczeniowy <b>Gry w Oczko</b> (Gry w 21/ Black Jack), dla gracza (człowieka) i komputera.
-W pliku <b>oczkoDane.py</b> utworzone są wszystkie funkcje odpowadające za logikę gry. Plik ten nie wymaga uzupełnienia.
-<B><font color ="red">Należy:</font> </b>
+<p>Projekt ćwiczeniowy <b>Gry w Oczko</b> (Gry w 21/ Black Jack), dla gracza (człowieka) i komputera.
+W pliku <b>oczkoDane.py</b> utworzone są wszystkie funkcje odpowadające za "logikę gry". Plik ten nie wymaga uzupełnienia.</p>
+<p><B><font color ="red">Należy:</font> </b>
 <ul>
 <li>przygotować zestaw kart z talii, tzn znaleźć w internecie obrazki przedstawiające poszczególne karty, dokonać ich ewentualnego pocięcia i podasowania rozmiarów, tak aby każda
 karta miała ten sam wymiar</li>
@@ -34,3 +34,4 @@ Stół gracza powinien być po lewej stronie, a stół banku po prawej.</li>
 <li>Należy również przestestować, grę czy nie pojawiają się błędy</li>
 <li>Należy również pooprawić wyświetlanie kart gracza i banku , tak aby wyświetlały się od lewej do prawej bez zbędnych odstępów</li>  
 <li>Warto było by również uatrakcyjnić grafikę stołu gracza i banku oraz grafikę stołu z talią</li>    
+</p>
